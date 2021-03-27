@@ -10,7 +10,7 @@ function newItem() {
         list.append(li);
     }
     //Crossing out an item
-    li.on('dbclick', function(){
+    li.on('dblclick', function(){
         li.toggleClass('strike');
     });
     //We add the delete button 'X'
